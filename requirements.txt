@@ -9,11 +9,13 @@ cloudscraper
 dnspython
 fastapi
 feedparser
+Flask
 google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
 gunicorn
 httpx
+itsdangerous
 jinja2
 lxml
 motor
@@ -31,5 +33,6 @@ tgcrypto
 urllib3
 uvicorn
 uvloop
+werkzeug
 xattr
 yt-dlp[default,curl-cffi]
