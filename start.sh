@@ -1,4 +1,3 @@
-gunicorn app:app
 source mltbenv/bin/activate
-python3 update.py
-python3 -m bot
+gunicorn app:app & python3 update.py && python3 -m bot
+
